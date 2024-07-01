@@ -1,0 +1,18 @@
+*//here the input is taken from the user ,select the opearator for user requirement and to perform the various arthimetic opearations like (addition,subtraction,multiplication and division)*//
+num1=int(input("enter the first number :"))
+num2=int(input("enter the second number :"))
+op=input("enter the operator :")
+if op=="+":
+    result=num1+num2
+    print("the addition of two numbers is :",result)
+elif op=="-":
+    result=num1-num2
+    print("the subtraction of two numbers is :",result)
+elif op=="*":
+    result=num1*num2
+    print("the multipication of two numbers is :",result)
+elif op=="/":
+    result=num1/num2
+    print("the division  of two numbers is :",result)
+else:
+    print(invaild)
